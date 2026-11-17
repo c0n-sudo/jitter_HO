@@ -4,7 +4,7 @@ import pyautogui
 
 INTERVAL = 50 # in sec movement
 
-print(""Jitter running... kill task strg+c.")
+print("Jitter running... kill task strg+c.")
 
 try:
     while True:
