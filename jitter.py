@@ -13,7 +13,7 @@ def render_bar(elapsed, total, count):
     remaining = max(int(total - elapsed), 0)
     print(
         f"\r[{bar}] next move in {remaining:2d}s | move: {count}",
-        end=","
+        end="",
         flush=True,
     )
 
