@@ -24,7 +24,7 @@ print("Jitter running... kill task strg+c.")
 count = 0
 try:
     while True:
-        wait = INTERVAL + random.randnit(-JITTER, JITTER)
+        wait = INTERVAL + random.randint(-JITTER, JITTER)
         start = time.time()
         while (elapsed := time.time() - start) < wait:
                render_bar(elapsed, wait, count)
