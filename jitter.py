@@ -10,6 +10,6 @@ try:
     while True:
         pyautogui.moveRel(1, 0)
         pyautogui.movRel(-1, 0)
-        time.sleep(INTERVAL + random.randint(-10. 10))
+        time.sleep(INTERVAL + random.randint(-10, 10))
 except KeyboardInterrupt:
     print("Paused.")
